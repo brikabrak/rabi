@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rabi", "Rabi\Rabi.csproj", "{96AC2851-744B-4506-BD5D-27CFA69E8948}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rabi.Tests", "Rabi.Tests\Rabi.Tests.csproj", "{4FC2DCE0-25E7-4E2E-A80C-D27029D0DB68}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{96AC2851-744B-4506-BD5D-27CFA69E8948}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96AC2851-744B-4506-BD5D-27CFA69E8948}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96AC2851-744B-4506-BD5D-27CFA69E8948}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96AC2851-744B-4506-BD5D-27CFA69E8948}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FC2DCE0-25E7-4E2E-A80C-D27029D0DB68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FC2DCE0-25E7-4E2E-A80C-D27029D0DB68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FC2DCE0-25E7-4E2E-A80C-D27029D0DB68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FC2DCE0-25E7-4E2E-A80C-D27029D0DB68}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
