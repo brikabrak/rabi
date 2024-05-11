@@ -81,7 +81,7 @@ public static class Program
 
                     var settingLines = dataProvider.GetDataFromPath(
                         pathArgVal,
-                        "*.DotSettings",
+                        "*.DotSettings*",
                         pathOpts.UserFirst ? ".DotSettings.user" : string.Empty);
                     var solutionLines = dataProvider.GetDataFromPath(pathArgVal, "*.sln");
 
