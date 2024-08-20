@@ -104,6 +104,7 @@ public class CommandHandler
                     console.WriteLine($"\tProject: {proj}, File: {projFile} <{refer}>");
 
                 var pRef = new ProjectReference(proj, projFile, refer);
+                pRef.UseProjectFileAlias = true;
 
                 return pRef;
             }).ToList();
@@ -141,7 +142,7 @@ public class CommandHandler
                 {
                     if (p.Guid == pulledRef)
                         return true;
-                    if (p.Project == pulledRef)
+                    if (p.Project == pulledRef || p.ProjectFile == pulledRef)
                     {
                         useProjectFile = true;
                         return true;
